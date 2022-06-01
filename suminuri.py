@@ -208,9 +208,10 @@ def main():
         print("ADD PATH: " + str(dirname + "/poppler/windows/bin"))
         os.environ["PATH"] += os.pathsep + str(dirname + "/poppler/windows/bin")
     else:
-        pass
-        # print("ADD PATH: " + str(dirname + "/poppler/mac/bin"))
-        # os.environ["PATH"] += os.pathsep + str(dirname + "/poppler/mac/bin")
+        # pass
+        print("ADD PATH: " + str(dirname + "/poppler/mac/bin"))
+        os.environ["PATH"] += os.pathsep + str(dirname + "/poppler/mac/bin")
+        # os.environ["PATH"] += os.pathsep + str(dirname + "/poppler/mac/lib")
 
     # 設定デフォルト値
     dpi = 150 
